@@ -1,8 +1,8 @@
 import {applyMiddleware, combineReducers,  legacy_createStore as createStore} from 'redux' 
 import thunk from 'redux-thunk'
-import { authReducer } from '../firebase/firebase-config'
+import  {authReducer}  from './authReducer'
 let reducers = combineReducers({  
-    authReducer
+     authReducer
 })
 let store = createStore(reducers, applyMiddleware(thunk))   
 window.store= store
