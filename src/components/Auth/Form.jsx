@@ -1,7 +1,7 @@
-
+import { Navigate,} from "react-router-dom";
 import { useForm } from "react-hook-form"; 
 const Form = (props) =>{ 
-    console.log(props)
+    console.log(props) 
     const {register, handleSubmit, reset, formState: {errors}} = useForm({
         mode: "onBlur",
     }); 
@@ -13,7 +13,8 @@ const Form = (props) =>{
     if(props.isFetch){ 
         console.log(props.isFetch); 
         return <p>Loading...</p>
-    } 
+    }  
+   
     return( 
         <form onSubmit={handleSubmit(onClick)}> 
              <input  placeholder="Введите вашу почту" {...register("email", {
