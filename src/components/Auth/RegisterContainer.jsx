@@ -8,7 +8,7 @@ const RegisterContainer = props =>{
         return <Navigate to={'/'}/>
     }  
     return (  
-        <Form value='Зарегестрироваться' isFetch={props.isFetch} onSubmit={props.signInUserTC}/>
+        <Form value='Зарегистрироваться' isFetch={props.isFetch} onSubmit={props.signInUserTC}/>
     )
 }  
 const mapStateToProps = (state) =>{ 
