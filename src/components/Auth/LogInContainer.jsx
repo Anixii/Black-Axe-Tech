@@ -8,8 +8,9 @@ const LogInContainer = props =>{
     if(props.email){ 
         return <Navigate to={'/'}/>
     }  
-    return ( 
-        <Form value='Войти' isFetch={props.isFetch} onSubmit={props.logInUserTC}/>
+    return (  
+        
+        <Form value='Войти' isFetch={props.isFetch}  onSubmit={props.logInUserTC}/>
     )
 }  
 const mapStateToProps = (state) =>{ 

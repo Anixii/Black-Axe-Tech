@@ -1,7 +1,10 @@
-const HomePage = props =>{ 
+import Main from './Main';
+import Header from './Header/Header';
+ const HomePage = props =>{ 
     return( 
         <div> 
-            <p>HomePage</p>
+            <Header/> 
+            <Main/>
         </div>
     )
 } 

@@ -2,5 +2,37 @@
   margin: 0;
   padding:  0; 
   box-sizing: border-box;
+}  
+.header { 
+  height: 85px; 
+  display: flex;  
+  align-items: center; 
+  background-color:#0d4faf ;
 } 
+.header__container{  
+  padding: 15px 120px;
+  height:  100%;  
+  width: 100%;
+  display: flex; 
+   justify-content: space-between; 
+   align-items:center;
+} 
+.logo{ 
+  height: 60px;
+} 
+.header__item a, .header__auth a { 
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}   
+.main{
 
+}
+.main__container{ 
+
+}

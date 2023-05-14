@@ -54,7 +54,8 @@ const Form = (props) =>{
                 control={control} 
                 render={({field}) => <Button {...field} type='primary' htmlType='sumbit' >{props.value}</Button>}
                 />
-        </form>
+        </form> 
+
                 </div>
     )
 } 
