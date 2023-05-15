@@ -14,7 +14,7 @@ const Header = props => {
                 {props.email ? <NavLink to={'/booking'}>Забронировать билет</NavLink> : null }
             </div>
             <div className="header__auth">  
-                {props.email? <Button onClick={logOut}  type='primary' danger >Выйтии из аккаунта</Button> : <NavLink to={'/login'}>Войти в аккаунт</NavLink> }
+                {props.email? <Button onClick={logOut}  type='primary' danger  >Выйтии из аккаунта</Button> : <NavLink to={'/login'}>Войти в аккаунт</NavLink> }
                 
             </div>  
             </div>

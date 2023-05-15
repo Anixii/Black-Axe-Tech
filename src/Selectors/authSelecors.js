@@ -3,4 +3,7 @@ export const getFetching = (state) =>{
 } 
 export const getEmail = state =>{ 
     return state.authReducer.email
+}  
+export const getId = state =>{ 
+    return state.authReducer.id
 }
