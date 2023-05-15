@@ -1,10 +1,12 @@
 import Main from './Main';
-import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import HeaderContainer from './Header/HeaderContainer';
  const HomePage = props =>{ 
     return( 
         <div> 
-            <Header/> 
-            <Main/>
+            <HeaderContainer/> 
+            <Main/> 
+            <Footer/>
         </div>
     )
 } 
