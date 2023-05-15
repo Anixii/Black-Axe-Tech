@@ -5,6 +5,7 @@ import LoginPage from './components/Auth/pages/LoginPage';
 import RegisterPage from './components/Auth/pages/Register';
 import HomePage from './components/HomePage';
 import BookingContainer from './components/Booking/BookingContainer';
+import AdminContainer from './components/adminPanel/adminContainer';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         <Route path='/' element={<HomePage/>}/>
         <Route path='/login' element={<LoginPage/>}/> 
         <Route path='/register' element={<RegisterPage/>}/> 
-        <Route path='/booking' element={<BookingContainer/>}/>
+        <Route path='/booking' element={<BookingContainer/>}/> 
+        <Route path='/admin' element={<AdminContainer/>}/>
       </Routes>
     </div>
   );
